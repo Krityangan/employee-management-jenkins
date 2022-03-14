@@ -870,4 +870,28 @@ Caused by: org.hibernate.hql.internal.ast.QuerySyntaxException: expecting EOF, f
 ""2022-03-14 13:33:56,745 INFO  [restartedMain] com.Employee.EmployeeManagementApplication : Started EmployeeManagementApplication in 7.843 seconds (JVM running for 13986.258)
 ""2022-03-14 13:33:56,751 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
 ""2022-03-14 13:33:56,752 INFO  [restartedMain] com.Employee.EmployeeManagementApplication : Service Started at port 8080
+""2022-03-14 14:02:38,956 INFO  [Thread-15] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-14 14:02:38,962 INFO  [Thread-15] com.zaxxer.hikari.HikariDataSource : HikariPool-4 - Shutdown initiated...
+""2022-03-14 14:02:38,976 INFO  [Thread-15] com.zaxxer.hikari.HikariDataSource : HikariPool-4 - Shutdown completed.
+""2022-03-14 14:02:39,480 INFO  [restartedMain] com.Employee.EmployeeManagementApplication : Starting EmployeeManagementApplication using Java 11.0.2 on MGTECHLPT205 with PID 14580 (D:\SPRING\EmployeeManagement\target\classes started by krityangan.rahul in D:\SPRING\EmployeeManagement)
+""2022-03-14 14:02:39,481 INFO  [restartedMain] com.Employee.EmployeeManagementApplication : No active profile set, falling back to 1 default profile: "default"
+""2022-03-14 14:02:46,608 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-14 14:02:46,853 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 244 ms. Found 3 JPA repository interfaces.
+""2022-03-14 14:02:47,179 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+""2022-03-14 14:02:47,181 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+""2022-03-14 14:02:47,183 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-03-14 14:02:47,244 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+""2022-03-14 14:02:47,245 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7755 ms
+""2022-03-14 14:02:47,405 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-14 14:02:47,415 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-5 - Starting...
+""2022-03-14 14:02:47,462 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-5 - Start completed.
+""2022-03-14 14:02:47,462 INFO  [restartedMain] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+""2022-03-14 14:02:48,782 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-14 14:02:48,783 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-14 14:02:49,276 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-14 14:02:49,451 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+""2022-03-14 14:02:49,482 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+""2022-03-14 14:02:49,498 INFO  [restartedMain] com.Employee.EmployeeManagementApplication : Started EmployeeManagementApplication in 10.286 seconds (JVM running for 15719.009)
+""2022-03-14 14:02:49,501 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+""2022-03-14 14:02:49,502 INFO  [restartedMain] com.Employee.EmployeeManagementApplication : Service Started at port 8080
 "

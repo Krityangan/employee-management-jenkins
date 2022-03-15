@@ -1,0 +1,8 @@
+com\Employee\repo\ContactReporsitory.class
+com\Employee\repo\AddressRepository.class
+com\Employee\repo\EmployeeRepository.class
+com\Employee\entity\Address.class
+com\Employee\entity\Contact.class
+com\Employee\controller\EmployeeController.class
+com\Employee\entity\Employee.class
+com\Employee\EmployeeManagementApplication.class

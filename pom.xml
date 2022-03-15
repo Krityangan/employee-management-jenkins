@@ -12,6 +12,7 @@
 	<artifactId>Employeeresource-management</artifactId>
 	<version>Employee1.0.0</version>
 	<name>EmployeeManagement</name>
+	<packaging>jar</packaging>
 	<description>Employee Management</description>
 	<properties>
 		<java.version>1.8</java.version>
@@ -60,7 +61,6 @@
 	</dependencies>
 
 	<build>
-		<finalName>employee-management-jenkins</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.asciidoctor</groupId>
